@@ -22,7 +22,7 @@ def get_options():
     parser.add_argument("data", help="被处理数据")
     parser.add_argument("-O",
                         choices=['b16encode', 'b16decode', 'b32encode', 'b32decode',
-                                 'b64encode', 'b64decode', 'b85encode', 'b85decode'],
+                                 'b64encode', 'b64decode', 'b85encode', 'b85decode', 'a85encode', 'a85decode'],
                         default="b64decode",
                         help="对输入数据的操作")
     parser.add_argument('-o', help="输出文件名")
